@@ -1,4 +1,5 @@
-# mydevice
-what are my device specs ?
+# mydevice.io
 
-website : http://mydevice.io/
+What are my device specs ?
+
+Website : http://mydevice.io/

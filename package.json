@@ -1,6 +1,6 @@
 {
-  "name": "project",
-  "version": "0.0.1",
+  "name": "mydevice.io",
+  "version": "0.0.2",
   "devDependencies": {
     "gulp": "latest",
     "gulp-minify-css": "latest",
