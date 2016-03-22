@@ -23,7 +23,7 @@
 }
 .icon-twitter:before {
 	content: "\e600";
-} 
+}
 .icon-google-plus:before {
 	content: "\e601";
 }
@@ -245,7 +245,9 @@ a {
 .btn:hover,
 .btn:focus {
 	background: @primary-bg-hover;
-
+}
+.mentions {
+	text-align: center;
 }
 .csswidthem,
 [id=viewportwidth] {
@@ -254,6 +256,28 @@ a {
 [id=viewportwidthem] em {
 	color: rgba(51, 51, 51, 0.5);
 	font-size: 1.8em;
+}
+[id=viewportwidth]::after {
+	content: " ";
+	display:inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 1em 0 1em 1em;
+	border-color: transparent transparent transparent #444;
+	position: absolute;
+	right: 0;
+}
+[id=viewportwidth]::before {
+	content: " ";
+	display:inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 1em 1em 1em 0;
+	border-color: transparent #444 transparent transparent;
+	position: absolute;
+	left: 0;
 }
 .visually-hidden {
 	position: absolute !important;
