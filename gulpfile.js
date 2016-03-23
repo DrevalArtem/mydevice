@@ -8,8 +8,7 @@ var rename = require('gulp-rename');
 var minify = require('gulp-minify-css');
 var autoprefixer = require('gulp-autoprefixer');
 
-
-// tâche CSS
+// CSS task for less files
 gulp.task('css', function () {
   return gulp.src('./css/styles.less')
     .pipe(less())
